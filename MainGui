@@ -50,7 +50,7 @@ function Library:CreateWindow(windowname,windowinfo)
     DashBoard.BorderColor3 = Color3.fromRGB(15, 15, 15)
     DashBoard.Position = UDim2.new(0.0185185205, 0, 0.16842106, 0)
     DashBoard.Size = UDim2.new(0, 107, 0, 223)
-    DashBoard.BackgroundTransparency = 0.05
+    DashBoard.BackgroundTransparency = 0.09
     DashBoardCorner.CornerRadius = UDim.new(0, 6)
     DashBoardCorner.Name = "DashBoardCorner"
     DashBoardCorner.Parent = DashBoard
@@ -824,6 +824,10 @@ function Library:CreateWindow(windowname,windowinfo)
         end
         --
         return PageElements
+    end
+    return PageYep
+end
+return Library
     end
     return PageYep
 end
