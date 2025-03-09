@@ -1,5 +1,4 @@
--- Adonis Bypass
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua", true))()
+
 -- Main Script
 local function DestroyYep()
     for x = 1,69 do 
